@@ -8,14 +8,15 @@ Use as input an array (or a single) of GBIF ids and output an object with associ
 
 ```javascript
 import { wikidataVernacular } from "./wikidataVernacular/index.js"
-wikidataVernacular(["5290052", "3033894"])
+const vernaculars = await wikidataVernacular(["5290052", "3033894"])
 
-/* should return
+console.log(vernaculars)
+/*
 {"5290052": {
     fr:["Maïs", ...],
     en:["Corn", ...]
     ...
-    }
+    },
 "3033894":{...}
 ...
 }
