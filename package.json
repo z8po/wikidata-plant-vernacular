@@ -1,0 +1,36 @@
+{
+  "name": "wikidata-plant-vernacular",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A wikidata crawler to fetch vernacular plant names",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z8po/wikidata-plant-vernacular.git"
+  },
+  "keywords": [
+    "vernacular",
+    "plant",
+    "wikidata",
+    "gbif",
+    "telabotanica",
+    "ipni",
+    "sparql"
+  ],
+  "author": "@z8po",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/z8po/wikidata-plant-vernacular/issues"
+  },
+  "homepage": "https://github.com/z8po/wikidata-plant-vernacular#readme",
+  "dependencies": {
+    "async": "^3.2.5"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.6.0"
+  }
+}
