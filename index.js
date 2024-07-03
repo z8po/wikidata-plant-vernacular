@@ -14,7 +14,7 @@ const PREFIX = `
  */
 const wikidataQuery = (gbif) => `
     ${PREFIX}
-    SELECT DISTINCT ?subject ?vernacular ?lang
+    SELECT DISTINCT ?vernacular ?lang
     WHERE {
         ?subject wdt:P846 "${gbif}".
         ?subject wdt:P1843 ?vernacular
