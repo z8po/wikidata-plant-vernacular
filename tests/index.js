@@ -9,7 +9,7 @@ describe("wikidataVernacular tests ", () => {
       })
       .then(done)
       .catch(done)
-  }).timeout(4000)
+  }).timeout(2000)
   it('should find french vernacular name "Maïs" for Zea mays and both vernacular name "Epine-Vinette" "Épine-vinette vulgaire" in the list for Berberis Vulgaris', (done) => {
     wikidataVernacular(["5290052", "3033894"])
       .then((data) => {
@@ -28,5 +28,5 @@ describe("wikidataVernacular tests ", () => {
       })
       .then(done)
       .catch(done)
-  }).timeout(6000)
+  }).timeout(2000)
 })
