@@ -3,16 +3,8 @@ import { mapSeries } from "async"
 /* prefix are used as shorthand to syntaxicaly compress sparql queries and avoid to write the whole url of domain */
 const PREFIX = `
     # wikidata prefixes
-    PREFIX pqv: <http://www.wikidata.org/prop/qualifier/value/>
-
-    PREFIX wdtn: <http://www.wikidata.org/prop/direct-normalized/>
     PREFIX wdt: <http://www.wikidata.org/prop/direct/>
-    PREFIX ps: <http://www.wikidata.org/prop/statement/>
-    PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
-
-    PREFIX wds: <http://www.wikidata.org/entity/statement/>
-    PREFIX wd: <http://www.wikidata.org/entity/>
-    PREFIX p: <http://www.wikidata.org/prop/>`
+`
 
 /**
  * @name wikidataQuery
