@@ -1,13 +1,13 @@
 # wikidata vernacular name fetcher
 
-A crawler used to fetch from wikidata Sparql endpoint all the vernacular names of plants for all existing languages
+A crawler used to fetch from wikidata Sparql endpoint all the vernacular names of plants for all existing languages.
 
 ## Use
 
-Use as input an array (or a single) of GBIF ids and output an object with associated langs to the given id
+Use as input an array (or a single) of GBIF ids and output an object with associated langs to the given id.
 
-```
-import {wikidataVernacular} from "./wikidataVernacular/index.js"
+```javascript
+import { wikidataVernacular } from "./wikidataVernacular/index.js"
 wikidataVernacular(["5290052", "3033894"])
 
 /* should return
@@ -20,7 +20,6 @@ wikidataVernacular(["5290052", "3033894"])
 ...
 }
 */
-
 ```
 
 ## crawler behavior
